@@ -1,0 +1,17 @@
+/* section: about - lattes icon*/
+.nfab {                               
+    height: 2rem;
+    width: 2rem;
+}
+/* section: portfolio */
+a {
+    color:#343a40;
+}   
+img.fig-portfolio {
+    width: 70%;
+    height: 70%;
+}
+img.fig-covid {
+    width: 70%;
+    height: 70%;
+}

@@ -14,16 +14,15 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <!-- Special alteration by Gabi-->
-        <link href="css/special.css" rel="stylesheet" />
-        <link href="https://github.com/gabipz/portfolio/blob/master/css/special.css" rel="stylesheet" />
+        <!-- Special alteration by Gabi
+        <link href="css/special.css" rel="stylesheet" />-->
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Gabriela Piovesan</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.JPG" alt="" /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.JPG" alt="Gabriela photo" /></span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -56,8 +55,14 @@
                         <a class="social-icon" href="https://www.linkedin.com/in/gabipz/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/gabipz" target="_blank"><i class="fab fa-github"></i></a>
                         <a class="social-icon" href="http://lattes.cnpq.br/0140832287623231" target="_blank"><img class="nfab fa-lattes" src="assets/img/lattes-white.png"></a>
-                        <!--<a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>-->
+                        
+                        <style type="text/css">
+                            .nfab {                               
+                                height: 2rem;
+                                width: 2rem;
+                            }
+                        </style>
+
                     </div>
                 </div>
             </section>
@@ -174,6 +179,16 @@
                         </div>
                         <div class="flex-shrink-1"><span class="text-primary"><img src="assets/img/virus.png" class="fig-covid" alt="Virus"></span></div>
                     </div>
+                    <!-- Styles (because on github does not work 'special.css')-->
+                    <style type="text/css">
+                        a {
+                            color:#343a40;
+                        }
+                        img.fig-portfolio, img.fig-covid {
+                            width: 70%;
+                            height: 70%;
+                        }
+                    </style>
             </section>
             <!-- Interests-->
             <!--<section class="resume-section" id="interests">

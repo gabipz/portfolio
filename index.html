@@ -14,6 +14,8 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Special alteration by Gabi-->
+        <link href="css/special.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -50,17 +52,9 @@
                     </div>
                     <p class="lead mb-5">I am a physicist, completing the final year of a master's degree and studying systems analysis and development. Passionate about science and knowledge, I am carrying out intensive studies in Data Analysis tools such as Python, Machine Learning, SQL, Power BI and Excel.</p>
                     <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/gabipz/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/gabipz"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="http://lattes.cnpq.br/0140832287623231"><img class="nfab fa-lattes" src="assets/img/lattes-white.png"></a>
-
-                        <style type="text/css">
-                            .nfab {                               
-                                height: 2rem;
-                                width: 2rem;
-                            }
-                        </style>
-                        
+                        <a class="social-icon" href="https://www.linkedin.com/in/gabipz/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/gabipz" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="http://lattes.cnpq.br/0140832287623231" target="_blank"><img class="nfab fa-lattes" src="assets/img/lattes-white.png"></a>
                         <!--<a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
                         <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>-->
                     </div>
@@ -161,67 +155,24 @@
             <section class="resume-section" id="portfolio">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Portfolio</h2>
-
-                    <!--<img src="assets/img/enem.png" class="fig-portfolio" ALIGN=”right”><b>Codenation Enem Challange:</b> -->
-
+                    <h3 class="mb-3">Data Analysis</h3>
+                    <!-- Enem - Codenation -->
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-2"><a href="https://github.com/gabipz/data-science-codenation/blob/master/00-enem-prediction-challenge/enem-challenge.ipynb">Codenation Enem Challange</a></h3>
-                            <p>My proposed solution for the Codenation Data Science Challenge to enter the AceleraDev program. In this project, we had to predict the math grades of students who took the Brasilian National Exam (ENEM), using the other subjects grades to build up a model.</p>
+                            <h4 class="mb-2"><a href="https://github.com/gabipz/data-science-codenation/blob/master/00-enem-prediction-challenge" target="_blank">Codenation Enem Challange</a></h4>
+                            <p>My proposed solution for the Codenation Data Science Challenge to enter the AceleraDev program. In this project, we had to predict the math grades of students who took the Brasilian National Exam (ENEM), using the other subjects grades to build up a Machine Learning model.</p>
                         </div>
-                        <div class="flex-shrink-1"><span class="text-primary"><img src="assets/img/enem.png" class="fig-portfolio" alt="Responsive image"></span></div>
+                        <div class="flex-shrink-1"><span class="text-primary"><img src="assets/img/enem.png" class="fig-portfolio" alt="Enem logo"></span></div>
                     </div>
-                        <!--
-                        <figure class="fig-legend">
-                            <img src="assets/img/enem.png" class="fig-portfolio" alt="Responsive image">
-                            <h4>Codenation Enem Challange</h4>
-                            <p>My proposed solution for the Codenation Data Science Challenge to enter the AceleraDev program. In this project, we had to predict the math grades of students who took the Brasilian National Exam (ENEM), using the other subjects grades to build up a model.</p>
-                            
-                            <figcaption>
-                                <h4>Codenation Enem Challange</h4>
-                                <p>PT-BR</p>
-                            </figcaption>
-                        </figure>                      
-                        
-                        <img src="assets/img/enem.png" class="fig-portfolio" alt="Responsive image">
-                        <br>
-                        <h4>Codenation Enem Challange</h4>
-                        <p>My proposed solution for the Codenation Data Science Challenge to enter the AceleraDev program. In this project, we had to predict the math grades of students who took the Brasilian National Exam (ENEM), using the other subjects grades to build up a model.</p>-->
-
-                        <style type="text/css">
-                            a {
-                                color:#343a40;
-                            }
-                            
-                            img.fig-portfolio {
-                                width: 70%;
-	                            height: 70%;
-                            }
-                            
-                            /*
-                            figure.fig-legend {
-                            position: relative;
-                            border: 8px solid white;
-                            box-shadow: 1px 1px 4px black;
-                            }
-                            figure.fig-legend img.fig-portfolio {
-	                        width: 20%;
-	                        height:20%;
-                            }
-                            figure.fig-legend figcaption{
-                                opacity: 0;
-                                position: absolute;
-                                top: 0px; 
-                                background-color: rgba(0,0,0,.4); 
-	                            color: white;
-                                box-sizing: border-box;
-                                transition: opacity 1s;
-                                padding: 50px;    	 
-                            }
-                            .fig-legend:hover figcaption{
-                                opacity: 1;
-                            } */
-                        </style>
+                    <br>
+                    <!-- Covid - Coursera -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h4 class="mb-2"><a href="https://github.com/gabipz/ds-studies/tree/master/Covid-19-Data-Analysis_Coursera" target="_blank">COVID19 - Coursera</a></h4>
+                            <p>This project is an introductory exercise to preprocess and merge datasets to calculate needed measures and prepare them for an Analysis. We had two datasets that were merged to see if there is any relationship between the spread of the virus in a country and how happy people are, living in that country.</p>
+                        </div>
+                        <div class="flex-shrink-1"><span class="text-primary"><img src="assets/img/virus.png" class="fig-covid" alt="Virus"></span></div>
+                    </div>
             </section>
             <!-- Interests-->
             <!--<section class="resume-section" id="interests">
